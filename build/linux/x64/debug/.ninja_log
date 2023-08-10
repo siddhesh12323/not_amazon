@@ -1,0 +1,28 @@
+# ninja log v5
+0	13118	0	/home/siddhesh/Flutter Projects/not_amazon/linux/flutter/ephemeral/libflutter_linux_gtk.so	3261bbdf623805e6
+0	13118	0	/home/siddhesh/Flutter Projects/not_amazon/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	3261bbdf623805e6
+0	13118	0	/home/siddhesh/Flutter Projects/not_amazon/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	3261bbdf623805e6
+0	13118	0	/home/siddhesh/Flutter Projects/not_amazon/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	3261bbdf623805e6
+0	13118	0	/home/siddhesh/Flutter Projects/not_amazon/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	3261bbdf623805e6
+0	13118	0	/home/siddhesh/Flutter Projects/not_amazon/linux/flutter/ephemeral/flutter_linux/fl_engine.h	3261bbdf623805e6
+0	13118	0	/home/siddhesh/Flutter Projects/not_amazon/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	3261bbdf623805e6
+0	13118	0	/home/siddhesh/Flutter Projects/not_amazon/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	3261bbdf623805e6
+0	13118	0	/home/siddhesh/Flutter Projects/not_amazon/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	3261bbdf623805e6
+0	13118	0	/home/siddhesh/Flutter Projects/not_amazon/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	3261bbdf623805e6
+0	13118	0	/home/siddhesh/Flutter Projects/not_amazon/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	3261bbdf623805e6
+0	13118	0	/home/siddhesh/Flutter Projects/not_amazon/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	3261bbdf623805e6
+0	13118	0	/home/siddhesh/Flutter Projects/not_amazon/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	3261bbdf623805e6
+0	13118	0	/home/siddhesh/Flutter Projects/not_amazon/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	3261bbdf623805e6
+0	13118	0	/home/siddhesh/Flutter Projects/not_amazon/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	3261bbdf623805e6
+0	13118	0	/home/siddhesh/Flutter Projects/not_amazon/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	3261bbdf623805e6
+0	13118	0	/home/siddhesh/Flutter Projects/not_amazon/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	3261bbdf623805e6
+0	13118	0	/home/siddhesh/Flutter Projects/not_amazon/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	3261bbdf623805e6
+0	13118	0	/home/siddhesh/Flutter Projects/not_amazon/linux/flutter/ephemeral/flutter_linux/fl_value.h	3261bbdf623805e6
+0	13118	0	/home/siddhesh/Flutter Projects/not_amazon/linux/flutter/ephemeral/flutter_linux/fl_view.h	3261bbdf623805e6
+0	13118	0	/home/siddhesh/Flutter Projects/not_amazon/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	3261bbdf623805e6
+0	13118	0	flutter/_phony_	3261bbdf623805e6
+13118	13909	1691671006640368584	CMakeFiles/not_amazon.dir/flutter/generated_plugin_registrant.cc.o	30d6decf5fe44b1a
+13118	13966	1691671006700368546	CMakeFiles/not_amazon.dir/main.cc.o	2526b2bd824436ac
+13118	14012	1691671006744368519	CMakeFiles/not_amazon.dir/my_application.cc.o	6d9e5857d7046bc
+14012	14259	1691671006996368361	intermediates_do_not_run/not_amazon	ab24bc21bc470e71
+14259	14350	0	CMakeFiles/install.util	e8fbdcdb40a774de
