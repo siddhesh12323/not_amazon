@@ -1,4 +1,4 @@
-#Thu Aug 10 19:32:46 IST 2023
+#Sat Aug 12 01:17:15 IST 2023
 base.0=/home/siddhesh/Flutter Projects/not_amazon/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

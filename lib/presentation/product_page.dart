@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:not_amazon/product/product.dart';
+import 'package:url_launcher/url_launcher.dart';
 import '../theme elements/appbar_text_theme.dart';
 
 class ProductPage extends StatefulWidget {
@@ -37,6 +38,7 @@ class _ProductPageState extends State<ProductPage> {
     }
     return Scaffold(
         appBar: AppBar(
+          centerTitle: true,
           title: Text(
             widget.appBarTitle,
             style: appBarTextStyle,
@@ -85,15 +87,33 @@ class _ProductPageState extends State<ProductPage> {
                 )
               ],
             ),
-            const SizedBox(
-              height: 20,
-            ),
+            getSizedBox(10, 0),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 for (var i = 0; i < product.images.length; i++)
                   buildIndicator(currentIndex == i)
               ],
+            ),
+            getSizedBox(10, 0),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16.0),
+              child: Row(
+                children: [
+                  InkWell(
+                    onTap: () => _launchURL(product!.url),
+                    child: const Text(
+                      'Visit the company store',
+                      style: TextStyle(color: Colors.blue, fontSize: 16),
+                    ),
+                  ),
+                  const Spacer(),
+                  Text(
+                    '${product.rating.toString()}/5.0',
+                    style: TextStyle(fontSize: 16),
+                  )
+                ],
+              ),
             )
           ],
         ));
@@ -111,5 +131,21 @@ class _ProductPageState extends State<ProductPage> {
         ),
       ),
     );
+  }
+
+  Widget getSizedBox(double height, double width) {
+    return SizedBox(
+      height: height,
+      width: width,
+    );
+  }
+
+  _launchURL(String url) async {
+    Uri _url = Uri.parse(url);
+    if (await launchUrl(_url)) {
+      await launchUrl(_url);
+    } else {
+      throw 'Could not launch $_url';
+    }
   }
 }

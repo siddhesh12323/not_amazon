@@ -1,6 +1,7 @@
 /home/siddhesh/Flutter Projects/not_amazon/build/linux/x64/debug/bundle/not_amazon
 /home/siddhesh/Flutter Projects/not_amazon/build/linux/x64/debug/bundle/data/icudtl.dat
 /home/siddhesh/Flutter Projects/not_amazon/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/siddhesh/Flutter Projects/not_amazon/build/linux/x64/debug/bundle/lib/liburl_launcher_linux_plugin.so
 /home/siddhesh/Flutter Projects/not_amazon/build/linux/x64/debug/bundle/data/flutter_assets/version.json
 /home/siddhesh/Flutter Projects/not_amazon/build/linux/x64/debug/bundle/data/flutter_assets/assets/s23ultra/s23ultra(3).png
 /home/siddhesh/Flutter Projects/not_amazon/build/linux/x64/debug/bundle/data/flutter_assets/assets/s23ultra/s23ultra(1).png
