@@ -190,6 +190,11 @@ class _ProductPageState extends State<ProductPage> {
                         borderRadius: BorderRadius.circular(8)),
                   ),
                 ),
+              ),
+              //! DESCRIPTION
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Text(product.description),
               )
             ],
           ),

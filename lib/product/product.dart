@@ -78,7 +78,7 @@ List<Product> products = [
       url: 'https://www.samsung.com/us/smartphones/galaxy-s23-ultra/'),
   Product(
       name: "Vivo X90 Pro Plus",
-      description: "2023 flagship from Xiaomi",
+      description: "2023 flagship from Vivo",
       images: [
         "assets/x90proplus/x90proplus(1).png",
         "assets/x90proplus/x90proplus(2).png",

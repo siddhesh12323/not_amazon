@@ -20,12 +20,16 @@ class HomePage extends StatelessWidget {
         foregroundColor: const Color.fromARGB(255, 98, 95, 95),
         actions: [
           IconButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushNamed(context, '/cart');
+            },
             icon: const Icon(Icons.shopping_cart),
             iconSize: 20,
           ),
           IconButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushNamed(context, '/favorites');
+            },
             icon: const Icon(Icons.favorite_outline),
             iconSize: 20,
           )
