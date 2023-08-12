@@ -48,6 +48,7 @@ class _ProductPageState extends State<ProductPage> {
           foregroundColor: const Color.fromARGB(255, 98, 95, 95),
         ),
         body: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisSize: MainAxisSize.min,
           children: [
             Stack(
@@ -114,7 +115,29 @@ class _ProductPageState extends State<ProductPage> {
                   )
                 ],
               ),
-            )
+            ),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 5),
+              child: Text(
+                product.name,
+                style:
+                    const TextStyle(fontSize: 23, fontWeight: FontWeight.w500),
+              ),
+            ),
+            Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: SizedBox(
+                  width: double.infinity,
+                  height: 35,
+                  child: ListView(
+                    shrinkWrap: true,
+                    scrollDirection: Axis.horizontal,
+                    children: [
+                      for (var i = 0; i < product.ramStorageOptions.length; i++)
+                        returnRamStorageOptions(product, i),
+                    ],
+                  ),
+                ))
           ],
         ));
   }
@@ -147,5 +170,14 @@ class _ProductPageState extends State<ProductPage> {
     } else {
       throw 'Could not launch $_url';
     }
+  }
+
+  Widget returnRamStorageOptions(Product product, int iteration) {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(0, 0, 6, 0),
+      child: FilterChip(
+          label: Text(product.ramStorageOptions[iteration]),
+          onSelected: (value) {}),
+    );
   }
 }
